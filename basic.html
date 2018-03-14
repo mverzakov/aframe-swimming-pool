@@ -10,14 +10,11 @@
 </head>
 <!-- start the body of your page -->
 <body style='margin : 0px; overflow: hidden;'>
-
 	<!-- Define your 3d scene and enabled ar.js -->
 	<a-scene embedded arjs='trackingMethod: best;'>
-
 		<!-- Create a anchor to attach your augmented reality -->
 		<a-anchor >
-
-			<!-- portal 360 with an image -->
+			<!-- Swimming Pool -->
 			<a-swimming-pool 
 				width='2' 
 				length='4' 
@@ -26,35 +23,8 @@
 				water-opacity='0.5'
 				position='0 0 0'
 				rotation='0 0 0'>
-				<!-- <a-entity 
-					ply-model="src: url(models/duck.ply);"
-					scale="0.0001 0.0001 0.0001"
-					rotation="0 90 0"
-					material="color: red">
-					<a-animation attribute="position"
-					dur="1000"
-					direction='alternate'
-					from="0 -0.1 0" to="0 -0.15 0"
-					repeat="indefinite"></a-animation>
-				</a-entity> -->
 			</a-swimming-pool> 
-
-			<!-- <a-entity 
-					ply-model="src: url(models/duck.ply);"
-					scale="0.0001 0.0001 0.0001"
-					rotation="0 90 0"
-					material="color: red">
-					<a-animation attribute="position"
-					dur="1000"
-					direction='alternate'
-					from="0 -0.1 0" to="0 -0.15 0"
-					repeat="indefinite"></a-animation>
-				</a-entity> -->
-
 		</a-anchor>
-
-		<!-- <a-marker-camera preset='hiro'></a-marker-camera>	 -->
-
 		<!-- Define a static camera -->
         <a-camera-static/>
 	</a-scene>
