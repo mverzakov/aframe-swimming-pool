@@ -49,14 +49,14 @@ Based on the [A-Frame](https://aframe.io/) and [three.js](https://threejs.org/).
 
 **Usual Swimming Pool 2 x 4**
 
-![Swimming Pool Outside](/examples/swimming pool outside.gif)
+![Swimming Pool Outside](/examples/swimming-pool-outside.gif)
 
 **90° Rotated Swimming Pool**
 Here you can get inside the pool.
 
-![Swimming Pool Going Inside](/examples/swimming pool going inside.gif)
+![Swimming Pool Going Inside](/examples/swimming-pool-going-inside.gif)
 
 **180° Rotated Swimming Pool**
 Here you are inside the pool.
 
-![Swimming Pool Going Inside](/examples/swimming pool inside.gif)
+![Swimming Pool Going Inside](/examples/swimming-pool-inside.gif)
