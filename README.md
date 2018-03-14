@@ -43,7 +43,6 @@ Based on the [A-Frame](https://aframe.io/) and [three.js](https://threejs.org/).
 | water-level               | Water level (0 to 1)     | 0.95                       |
 | water-opacity             | Water Opacity (0 to 1)   | 0.8                        |
 | water-color               | Water Color              | #7AD2F7                    |
-| position                  | DB Name             
 
 # Examples
 
