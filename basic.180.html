@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/examples/vendor/aframe/build/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+<script>ARjs.Context.baseURL = 'lib/three.js/'</script>
+<!-- include aframe-swimming-pool -->
+<script src='src/aframe-swimming-pool.js'></script>
+<script src='src/threex-swimming-pool.js'></script>
+</head>
+<!-- start the body of your page -->
+<body style='margin : 0px; overflow: hidden;'>
+	<!-- Define your 3d scene and enabled ar.js -->
+	<a-scene embedded arjs='trackingMethod: best;'>
+
+		<!-- Create a anchor to attach your augmented reality -->
+		<a-anchor >
+
+			<!-- portal 360 with an image -->
+			<a-swimming-pool 
+				width='2' 
+				length='4' 
+				depth='1'
+				water-level='0.8'
+				water-opacity='0.7'
+				position='0 0 0'
+				rotation='180 0 0'>
+			</a-swimming-pool> 
+
+
+		</a-anchor>
+
+		<!-- Define a static camera -->
+        <a-camera-static/>
+	</a-scene>
+</body>
+</html>
