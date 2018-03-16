@@ -46,16 +46,17 @@ Based on the [A-Frame](https://aframe.io/) and [three.js](https://threejs.org/).
 
 # Examples
 
-**Usual Swimming Pool 2 x 4**
+**Regular Swimming Pool 2 x 4**
+
 [Regular swimming pool](https://mverzakov.github.io/aframe-swimming-pool/basic.html)
 ![Swimming Pool Outside](/examples/swimming-pool-outside.gif)
 
 **90° Rotated Swimming Pool**
-[Here](https://mverzakov.github.io/aframe-swimming-pool/basic.90.html) you can get inside the pool.
 
+[Here](https://mverzakov.github.io/aframe-swimming-pool/basic.90.html) you can get inside the pool.
 ![Swimming Pool Going Inside](/examples/swimming-pool-going-inside.gif)
 
 **180° Rotated Swimming Pool**
-[Here](https://mverzakov.github.io/aframe-swimming-pool/basic.180.html) you are inside the pool.
 
+[Here](https://mverzakov.github.io/aframe-swimming-pool/basic.180.html) you are inside the pool.
 ![Swimming Pool Going Inside](/examples/swimming-pool-inside.gif)
